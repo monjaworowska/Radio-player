@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    background-color: inherit; 
+}
+.radio-player{ 
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+.play-controls, 
+.volume-controls { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px; 
+    margin: 10px auto;  
+}
+.play-controls button, .volume-controls button{
+    width: 50px;
+    height: 50px; 
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.play{
+    background-image: url(assets/play.svg);    
+}
+.paused{
+    background-image: url(assets/pause.svg);    
+}
+.prev{
+    background-image: url(assets/backward.svg);
+}
+.next{
+    background-image: url(assets/forward.svg);
+}
+.muted{
+    background-image: url(assets/muted.svg); 
+}
+.unmuted{
+    background-image: url(assets/unmuted.svg);
+}
+.radio-stations{
+    width: 100%;
+    margin: 0; 
+}
+#ticks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    writing-mode: horizontal-tb;
+    width: 100%;
+}
+.radio-station-name{ 
+    text-align: center;
+    font-style: italic;
+}
