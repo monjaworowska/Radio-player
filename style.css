@@ -5,7 +5,7 @@ button{
     border: none;
     background-color: inherit; 
 }
-.radio-player{ 
+.radio-player, .radio-player2{ 
     width: 500px;
     padding: 10px;
     border: 1px solid #000;
